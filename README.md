@@ -1,4 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-
-https://jiayiguan99.github.io/CSE110-FA22-Lab2/
+https://jiayiguan99.github.io/fa22-cse110-lab3/
