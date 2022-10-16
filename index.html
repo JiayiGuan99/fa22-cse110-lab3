@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#3c790a">
+    <title>CSE110Lab2Webpage</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+  </head>
+
+  <body>
+    <header class="page-header">
+        <h1>A Team's First Meeting Minutes</h1>
+        <h2>Introduction</h2>
+        <h3>10.9.2022</h3>
+    </header>
+
+    <main>
+        <nav>
+            <details>
+                <summary>Navigation</summary>
+                <ul>
+                    <li><a href="#Attendance">Attendance</a></li>
+                    <li><a href="#Agenda">Agenda</a></li>
+                    <li><a href="#Random">Random Stuff</a></li>
+                  </ul>
+            </details>
+        </nav>
+
+        <section>
+            <h3 id="Attendance">Attendance List</h3>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+            </ul>
+        </section>
+
+        <section>
+        <h3 id="Agenda">Agenda</h3>
+            <ol>
+                <li>Self Introduction</li>
+                <li>Logistics</li>
+                <li>blablabla</li>
+                <li>blablablablablabla</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Unfiinished Business</h3>
+            <p>None</p>
+        </section>
+        
+        <section>
+            <h3>New Business and Memo</h3>
+            <p>blablabla</p>
+        </section>
+
+        <section>
+            <h3 id="Random">Random Stuff</h3>
+            <p><a href = "https://loremipsum.io/generator/?n=5&t=p">Lorem Ipsum Generator</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                <span class="ingredient">Elementum</span> nisi quis eleifend quam adipiscing vitae. 
+                <b>Aenean et tortor</b> at risus viverra adipiscing. <strong>Eget lorem dolor sed viverra.</strong> 
+                Sed augue lacus viverra vitae congue. Id venenatis a <i>condimentum vitae sapien pellentesque</i>. 
+                Aliquam ut porttitor leo a <em>diam sollicitudin</em> tempor. 
+                Placerat orci nulla pellentesque dignissim enim sit. 
+                Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. 
+                Libero nunc consequat interdum varius sit. <br>
+                Fringilla phasellus faucibus scelerisque eleifend donec. <br>
+                Amet nisl suscipit adipiscing bibendum est ultricies integer quis. <br>
+        </section>
+
+        <hr>
+        
+        <div class="pics">
+            <img src="pic.jpg"
+                 alt="A desktop background">
+        </div>
+
+        <figure>
+            <figcaption>Random Audio</figcaption>
+            <audio
+                controls
+                src="audio.mp3">
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Random Video</figcaption>
+            <video controls width="500">
+                <source src="video.mp4"
+                        type="video/mp4">
+            </video>
+        </figure>
+        
+        <hr>
+
+        <h2>Form</h2>
+        <form action="URL" method="get" class="form-example">
+            <div class="form">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Choose your favorite ice cream flavor</legend>
+            
+                <input type="radio" id="Vanilla" name="icecream" value="V">
+                <label for="Vanilla">Kraken</label><br>
+            
+                <input type="radio" id="Strawberry" name="icecream" value="S">
+                <label for="Strawberry">Strawberry</label><br>
+            
+                <input type="radio" id="Chocolate" name="icecream" value="C">
+                <label for="Chocolate">Chocolate</label>
+
+                <input type="radio" id="Other" name="icecream" value="O">
+                <label for="Other">Other</label>
+            </fieldset>
+
+            <br>
+            <br>
+
+            <label for="fact">Tell us a fun fact about you:</label> <br>
+
+            <textarea id="fact" name="fact" rows="5" cols="33">A fun fact about me is ...
+            </textarea>
+
+            <br>
+            <br>
+            
+            <label for="Day-choice">Choose your favorite day:</label>
+            <input list="Day" id="Day-choice" name="Day-choice">
+
+            <datalist id="Day">
+                <option value="Monday :(">
+                <option value="Tuesday">
+                <option value="Wednesday">
+                <option value="Who would choose Thursday?!">
+                <option value="Firday yayyy!">
+                <option value="Weekend!!!!!!">
+            </datalist>
+
+            <br>
+            <br>
+
+            <label for="pet-select">Cat or Dog:</label>
+
+            <select name="pets" id="pet-select">
+                <option value="">--Please choose an option--</option>
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                <option value="other">other</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <button class="button"
+                    type="button">
+                Submit
+            </button>
+        </form>
+        
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Jiayi Guan - CSE110Fall22</p>
+    </footer>
+  </body>
+</html>
