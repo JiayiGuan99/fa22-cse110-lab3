@@ -1,4 +1,177 @@
-/* */
+
+/* colors */
 p {
+    color: rgba(132, 28, 28, 0.696);
+    line-height: 1.5em;
+    font-size: 3ex;
+    margin: 10px 50px 20px 20px;
+    font-family: "FuzzyBubbles", serif;
+  }
+
+ul {
+    color: #123;
+    margin-top: 0.5cm;
+    display: inline-block;
+}
+
+ol {
+    color : rgb(149, 14, 211);
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    background-color: rgb(242, 218, 222);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2,
+h3 {
+    color: rgb(243, 20, 57);
+    font-size: 3.5ch;
+    background-color: rgb(238, 206, 211);
+    padding: 30px 3px 30px 5px;
+    text-align: center;
+}
+
+/* background */
+.box {
+  background-color: #f6ecbf;
+  border: 5px;
+  border-style: solid;
+  border-color: rgb(152, 24, 24);
+  border-width: 0.1cm;
+  border-radius: 1em;
+  position: static;
+}
+
+
+
+  /* unit */
+.pics {
+    border: thin #b85d5d solid;
+    display: flex;
+    flex-flow: column;
+    padding: 1pc;
+    height: 210pt;
+    width: 500pt;
+    max-width: 1000px;
+    max-height: 700pt;
+    min-width: none;
+    margin: auto;
+    position: relative;
+    top: 80px; left: 80px;
+} 
+
+/* text style */
+
+.under {
+  text-decoration: green wavy underline;
+}
+
+
+.button:hover {
+  color: rgb(255, 0, 30);
+}
+
+.a:active {
+  color: rgb(0, 255, 115);
+} 
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-container > li {
+  background: tomato;
+  padding: 5px;
+  margin-top: 10px;
+  line-height: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.flex-container > div {
+  background: tomato;
+  padding: 5px;
+  margin-top: 10px;
+  line-height: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #957bf4;
+  padding: 10px;
+  gap: 10px;
+}
+
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container > li {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: rgb(242, 222, 222);
+  }
+}
+
+@font-face {
+  font-family: "FuzzyBubbles";
+  src: url("FuzzyBubbles.ttf");
+}
+
+#Attendance {
+  text-align: left;
+  color: rgb(136, 17, 17);
+}
+
+* {
+  color: #83101e;
+}
+
+a[target] {
+  background-color: yellow;
+}
+
+
+li {
+  list-style-type: disc;
+}
+
+li li {
+  list-style-type: circle;
+}
+
+p ~ span {
   color: red;
 }
+
+img + p {
+  color: red;
+}
+
+.box h3 {
+  color: rgb(81, 57, 215);
+} 
